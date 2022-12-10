@@ -1,0 +1,325 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Image1
+{
+   border-width: 0;
+   -webkit-animation: animate-opacity 5000ms linear 0ms 1 normal both;
+   -moz-animation: animate-opacity 5000ms linear 0ms 1 normal both;
+   animation: animate-opacity 5000ms linear 0ms 1 normal both;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Shape1
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#NavigationBar1 ul.navbar
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1 ul.navbar li
+{
+   height: 30px;
+   width: 123px;
+   margin: 0 0 4px 0;
+   vertical-align: bottom;
+   overflow: hidden;
+}
+#NavigationBar1 ul.navbar li a
+{
+   display: block;
+   position: relative;
+}
+#NavigationBar1 ul.navbar li a img
+{
+   position: absolute;
+   left: 0;
+   z-index: 1;
+   border-width: 0;
+}
+#NavigationBar1 ul.navbar li span
+{
+   display: block;
+   height: 30px;
+   width: 123px;
+   position: absolute;
+   z-index: 2;
+}
+#NavigationBar1_wrapper
+{
+   position: absolute;
+   background-color: #FFFFFF;
+   opacity: 0.00;
+   z-index: 9999;
+}
+#Banner1
+{
+   background-color: #FFB6C1;
+   background: linear-gradient(to top, #FFB6C1 0%, #337AB7 100%);
+   border: 1px solid #245580;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-align: center;
+   margin: 0;
+}
+#Banner1 span
+{
+   display: block;
+   height: 19px;
+   margin: 12px 0px 12px 0px;
+}
+#Banner1
+{
+   margin: 0;
+   -webkit-animation: filter-blur-in 6000ms linear 0ms 1 normal both;
+   -moz-animation: filter-blur-in 6000ms linear 0ms 1 normal both;
+   animation: filter-blur-in 6000ms linear 0ms 1 normal both;
+}
+#Banner2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid transparent;
+   color: #FFDAB9;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-align: left;
+   margin: 0;
+}
+#Banner2 span
+{
+   display: block;
+   height: 19px;
+   margin: 30px 0px 30px 0px;
+}
+#Banner2
+{
+   margin: 0;
+   -webkit-animation: puff-in 5000ms linear 0ms 1 normal both;
+   -moz-animation: puff-in 5000ms linear 0ms 1 normal both;
+   animation: puff-in 5000ms linear 0ms 1 normal both;
+}
+#wb_Shape3
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape3
+{
+   width: 82px;
+   height: 79px;
+   background-color: #FFE4B5;
+   background: linear-gradient(to top, #FFE4B5 0%, #FFC0CB 100%);
+   border: 1px #F5DEB3 solid;
+   border-radius: 42px / 41px;
+}
+#Shape3_text
+{
+   position: absolute;
+   left: 14px;
+   top: 30px;
+   width: 53px;
+   height: 34px;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#wb_Shape3
+{
+   margin: 0;
+   -webkit-animation: filter-blur-in 5000ms linear 0ms 1 normal both;
+   -moz-animation: filter-blur-in 5000ms linear 0ms 1 normal both;
+   animation: filter-blur-in 5000ms linear 0ms 1 normal both;
+}
+#wb_Shape4
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape4
+{
+   width: 82px;
+   height: 79px;
+   background-color: #FA8072;
+   background: linear-gradient(to top, #FA8072 0%, #FFB6C1 100%);
+   border: 1px #F5DEB3 solid;
+   border-radius: 42px / 41px;
+}
+#Shape4_text
+{
+   position: absolute;
+   left: 14px;
+   top: 32px;
+   width: 53px;
+   height: 32px;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#wb_Shape4
+{
+   margin: 0;
+   -webkit-animation: filter-blur-in 5000ms linear 0ms 1 normal both;
+   -moz-animation: filter-blur-in 5000ms linear 0ms 1 normal both;
+   animation: filter-blur-in 5000ms linear 0ms 1 normal both;
+}
+#wb_Shape5
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape5_text
+{
+   position: absolute;
+   left: 15px;
+   top: 25px;
+   width: 74px;
+   height: 33px;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#Shape5
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape5
+{
+   margin: 0;
+   -webkit-animation: filter-blur-in 5000ms linear 0ms 1 normal both;
+   -moz-animation: filter-blur-in 5000ms linear 0ms 1 normal both;
+   animation: filter-blur-in 5000ms linear 0ms 1 normal both;
+}
+#wb_FlipSwitch1
+{
+   margin: 0;
+   -webkit-animation: filter-blur-in 5000ms linear 0ms 1 normal both;
+   -moz-animation: filter-blur-in 5000ms linear 0ms 1 normal both;
+   animation: filter-blur-in 5000ms linear 0ms 1 normal both;
+}
+#FlipSwitch1
+{
+   display: none;
+}
+#FlipSwitch1-label
+{
+   display: block;
+   overflow: hidden;
+   cursor: pointer;
+   border: 2px solid #9370DB;
+   border-radius: 31px;
+   box-sizing: border-box;
+   max-width: 100%;
+   height: 100%;
+   -webkit-transition: border-color 300ms cubic-bezier(0.95, 0.05, 0.795, 0.035) 0s;
+   transition: border-color 300ms cubic-bezier(0.95, 0.05, 0.795, 0.035) 0s;
+}
+#FlipSwitch1-inner
+{
+   box-sizing: border-box;
+   display: block;
+   width: 200%;
+   margin-left: -100%;
+   -webkit-transition: margin 300ms cubic-bezier(0.95, 0.05, 0.795, 0.035) 0s;
+   transition: margin 300ms cubic-bezier(0.95, 0.05, 0.795, 0.035) 0s;
+}
+#FlipSwitch1-inner:before, #FlipSwitch1-inner:after
+{
+   display: block;
+   float: left;
+   width: 50%;
+   height: 31px;
+   padding: 0;
+   line-height: 31px;
+   color: #808080;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   box-sizing: border-box;
+   border-radius: 31px;
+   text-align: center;
+}
+#FlipSwitch1-inner:before
+{
+   content: "On";
+   padding-right: 31px;
+   background-color: #0275D8;
+   color: #FFFFFF;
+   border-radius: 31px 0 0 31px;
+}
+#FlipSwitch1-inner:after
+{
+   content: "Off";
+   padding-left: 31px;
+   background-color: #FFDEAD;
+   color: #808080;
+   border-radius: 0 31px 31px 0;
+}
+#FlipSwitch1-switch
+{
+   display: block;
+   width: 31px;
+   margin: 0px;
+   background: #FFB6C1;
+   border: 2px solid #D3D3D3;
+   border-radius: 31px;
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.30);
+   position: absolute;
+   top: 2px;
+   bottom: 2px;
+   right: 42px;
+   -webkit-transition: all 300ms cubic-bezier(0.95, 0.05, 0.795, 0.035) 0s;
+   transition: all 300ms cubic-bezier(0.95, 0.05, 0.795, 0.035) 0s;
+   box-sizing: border-box;
+}
+#FlipSwitch1:checked + #FlipSwitch1-label
+{
+   border-color: #636363;
+}
+#FlipSwitch1:checked + #FlipSwitch1-label #FlipSwitch1-inner
+{
+   margin-left: 0;
+}
+#FlipSwitch1:checked + #FlipSwitch1-label #FlipSwitch1-switch
+{
+   right: 2px;
+   background: #FFFFFF;
+   border-color: #636363;
+}

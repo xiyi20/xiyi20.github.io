@@ -1,0 +1,147 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Banner1
+{
+   background-color: #FFFFFF;
+   background: linear-gradient(to top, #FFFFFF 0%, #000000 100%);
+   border: 2px outset #000000;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-align: center;
+   margin: 0;
+}
+#Banner1 span
+{
+   display: block;
+   height: 19px;
+   margin: 14px 0px 14px 0px;
+}
+#Banner1
+{
+   margin: 0;
+   -webkit-animation: filter-blur-in 3000ms linear 0ms 1 normal both;
+   -moz-animation: filter-blur-in 3000ms linear 0ms 1 normal both;
+   animation: filter-blur-in 3000ms linear 0ms 1 normal both;
+}
+#Button1
+{
+   line-height: 26px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 2px ridge #000000;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: url(images/girl.py_Button1_bkgrnd.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   margin: 0;
+   -webkit-animation: filter-blur-in 3000ms linear 0ms 1 normal both;
+   -moz-animation: filter-blur-in 3000ms linear 0ms 1 normal both;
+   animation: filter-blur-in 3000ms linear 0ms 1 normal both;
+}
+#Article1
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: left;
+}
+#Article1 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: left;
+}
+#Article1 .blogdate
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article1 .blogsubject, #Article1 .blogsubject a:link, #Article1 .blogsubject a:visited, #Article1 .blogsubject a:hover
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #666666;
+   text-decoration: none;
+}
+#Article1 .blogcomments, #Article1 .blogcomments a:link, #Article1 .blogcomments a:visited, #Article1 .blogcomments a:hover
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article1 .blogcomments
+{
+   text-decoration: none;
+}
+#Article1 .no-thumb
+{
+   display: none;
+}
+#Article1 .blogsubject
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Article1 .blogthumb
+{
+   margin: 0 0 5px 0;
+   float: right;
+   padding: 0 5px 0 0;
+}
+#Article1 .blogthumb img
+{
+   border-width: 0px;
+   width: 120px;
+   height: auto;
+}
+#Article1 .blogdate, #Article1 .blogcomments
+{
+   display: none;
+}
+#Article1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   font-family: Arial;
+   font-weight: normal;
+   margin: 0;
+}
