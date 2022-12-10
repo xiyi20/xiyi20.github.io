@@ -1,0 +1,106 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   -webkit-animation: filter-blur-in 3000ms linear 0ms 1 normal both;
+   -moz-animation: filter-blur-in 3000ms linear 0ms 1 normal both;
+   animation: filter-blur-in 3000ms linear 0ms 1 normal both;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Button1
+{
+   line-height: 28px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px inset #FFC0CB;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: url(images/lsp_Button1_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0;
+   -webkit-animation: filter-blur-in 4000ms linear 0ms 1 normal both;
+   -moz-animation: filter-blur-in 4000ms linear 0ms 1 normal both;
+   animation: filter-blur-in 4000ms linear 0ms 1 normal both;
+}
+#Button2
+{
+   line-height: 28px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: url(images/lsp_Button2_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0;
+   -webkit-animation: filter-blur-in 4000ms linear 0ms 1 normal both;
+   -moz-animation: filter-blur-in 4000ms linear 0ms 1 normal both;
+   animation: filter-blur-in 4000ms linear 0ms 1 normal both;
+}
+#Banner1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid transparent;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 35px;
+   text-align: center;
+   margin: 0;
+}
+#Banner1 span
+{
+   display: block;
+   height: 35px;
+   margin: 6px 0px 6px 0px;
+}
+#Button3
+{
+   line-height: 24px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 3px inset #000000;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: url(images/lsp_Button3_bkgrnd.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   margin: 0;
+   -webkit-animation: filter-blur-in 3000ms linear 0ms 1 normal both;
+   -moz-animation: filter-blur-in 3000ms linear 0ms 1 normal both;
+   animation: filter-blur-in 3000ms linear 0ms 1 normal both;
+}

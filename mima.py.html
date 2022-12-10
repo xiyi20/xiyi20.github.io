@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>密码加解密.py</title>
+<link href="Untitled1.css" rel="stylesheet">
+<link href="mima.py.css" rel="stylesheet">
+</head>
+<body>
+<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:1600px;height:1600px;z-index:0;">
+<img src="images/Inkedbeijing.jpg" id="Image1" alt=""></div>
+<div id="Banner1" style="position:absolute;left:0px;top:0px;width:1596px;height:46px;z-index:2"><span>&#23494;&#30721;&#21152;&#35299;&#23494;.py</span></div>
+<div id="Article1" style="overflow:hidden;position:absolute;left:78px;top:141px;width:1445px;height:399px;z-index:3;">
+<div class="blogitem">
+   <span class="blogsubject">密码加解密.py</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">Friday, August 20, 2021<br></div>
+   <span style="color:#FFFFFF;">print('——————————————————————————————————————————</span><span style="color:#FFFFFF;">密码加</span><span style="color:#FFFFFF;">/</span><span style="color:#FFFFFF;">解密程序———————————————————————————————————————————</span><span style="color:#FFFFFF;">')<br>
+<br>
+choose=input('</span><span style="color:#FFFFFF;">请输入您想要使用的密码功能</span><span style="color:#FFFFFF;">(</span><span style="color:#FFFFFF;">加</span><span style="color:#FFFFFF;">/</span><span style="color:#FFFFFF;">解</span><span style="color:#FFFFFF;">)</span><span style="color:#FFFFFF;">：</span><span style="color:#FFFFFF;">')<br>
+<br>
+<br>
+if choose=='</span><span style="color:#FFFFFF;">加</span><span style="color:#FFFFFF;">':<br>
+&nbsp;&nbsp;&nbsp; previouspassword=input('</span><span style="color:#FFFFFF;">请输入密码</span><span style="color:#FFFFFF;">(</span><span style="color:#FFFFFF;">纯数字且首位不为</span><span style="color:#FFFFFF;">0)</span><span style="color:#FFFFFF;">：</span><span style="color:#FFFFFF;">')<br>
+&nbsp;&nbsp;&nbsp; key=input('</span><span style="color:#FFFFFF;">请输入密钥</span><span style="color:#FFFFFF;">(</span><span style="color:#FFFFFF;">同上</span><span style="color:#FFFFFF;">)</span><span style="color:#FFFFFF;">：</span><span style="color:#FFFFFF;">')<br>
+&nbsp;&nbsp;&nbsp; password=int(previouspassword)^int(key)<br>
+&nbsp;&nbsp;&nbsp; print('</span><span style="color:#FFFFFF;">加密后密码是</span><span style="color:#FFFFFF;">:'+str(password))<br>
+<br>
+<br>
+if choose=='</span><span style="color:#FFFFFF;">解</span><span style="color:#FFFFFF;">':<br>
+&nbsp;&nbsp;&nbsp; pass_word=input('</span><span style="color:#FFFFFF;">请输入被加密的密码：</span><span style="color:#FFFFFF;">')<br>
+&nbsp;&nbsp;&nbsp; key_word=input('</span><span style="color:#FFFFFF;">请输入密钥：</span><span style="color:#FFFFFF;">')<br>
+&nbsp;&nbsp;&nbsp; previous_password=int(pass_word)^int(key_word)<br>
+&nbsp;&nbsp;&nbsp; print('</span><span style="color:#FFFFFF;">解密后的密码是：</span><span style="color:#FFFFFF;">'+str(previous_password))</span><br>
+   <div class="blogcomments"><a href="mailto:mail@yourwebsite.com?subject=&#23494;&#30721;&#21152;&#35299;&#23494;.py">Send Comments</a></div>
+</div>
+<div class="clearfix visible-col1"></div>
+</div>
+<a id="Button1" href="./index.html" style="position:absolute;left:0px;top:50px;width:111px;height:26px;z-index:4;">主页</a>
+</body>
+</html>
