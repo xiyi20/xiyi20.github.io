@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随性记</title>
+    <style>
+        @keyframes jianbian{
+            25%{opacity: 0.25;}
+            50%{opacity: 0.5;}
+            75%{opacity: 0.75;}
+            100%{opacity: 1;}
+        }
+        *{
+            margin: 0;padding: 0;
+            animation: jianbian 500ms linear 0ms 1 normal both;
+        }
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style-type: none;
+        }
+
+        #all{
+            width: 1603px;height: 752px;
+            margin: 0 auto;
+        }
+        #all .bg{
+            position: absolute;
+            width: 1603px;height: 752px;
+            z-index: 0;
+        }
+        .banner{
+            position: relative;
+            width: 1603px;height: 40px;
+        }
+        .banner b{
+            position: absolute;
+            text-align: center;
+            margin-left: -818px;
+            margin-top: 10px;
+            z-index: 1;
+        }
+        .touxiang{
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            margin-left: 801px;
+            margin-top: 20px;
+            transform: translateX(-50%);
+        }
+        .project{
+            position: absolute;
+            margin-left: 25px;
+            margin-top: 300px;
+            width: 200px;
+        }
+        .project li a{
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+            height: 40px;line-height: 40px;
+            background-color: plum;
+            border-radius: 5px;
+        }
+        .project li a:hover{
+            background-color: pink;
+        }
+        .project b{
+            font-size: 25px;
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div id="all">
+        <img class="bg" src="images/img0002.png" width="1603" height="700" alt="">
+        <div class="banner">
+            <img src="images/index_Banner1.png" width="1603" height="40" alt="">
+            <b>芜湖</b>
+        </div>
+        <div class="touxiang">
+            <img src="images/img0001.png" width="120" height="120" alt="">
+        </div>
+        <div class="project">
+            <b>Mr.D的开源项目:</b>
+            <ul>
+                <li><a href="">Python爬虫</a></li>
+                <li><a href="">Python每日早安推送</a></li>
+                <li><a href="">Java图书管理系统</a></li>
+                <li><a href="">Html仿小米商城官网</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
