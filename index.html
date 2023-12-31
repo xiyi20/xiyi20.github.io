@@ -62,7 +62,7 @@
             text-align: center;
             height: 40px;line-height: 40px;
             background-color: plum;
-            border-radius: 5px;
+            border-radius: 15px;
         }
         .project li a:hover{
             background-color: pink;
@@ -71,27 +71,40 @@
             font-size: 25px;
             color: pink;
         }
+        #foot{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            left: 1500px;
+            top: 710px;
+            width: 100px;
+            height: 40px;
+        }
     </style>
 </head>
 <body>
     <div id="all">
         <img class="bg" src="images/img0002.png" width="1603" height="700" alt="">
         <div class="banner">
-            <img src="images/index_Banner1.png" width="1603" height="40" alt="">
+            <img src="images/index_Banner.png" width="1603" height="40" alt="">
             <b>芜湖</b>
         </div>
         <div class="touxiang">
             <img src="images/img0001.png" width="120" height="120" alt="">
         </div>
         <div class="project">
-            <b>Mr.D的开源项目:</b>
+            <b>Mr.D的无聊项目:</b>
             <ul>
-                <li><a href="">Python爬虫</a></li>
-                <li><a href="">Python每日早安推送</a></li>
-                <li><a href="">Java图书管理系统</a></li>
-                <li><a href="">Html仿小米商城官网</a></li>
+                <li><a href="" target="_blank">Python爬虫</a></li>
+                <li><a href="https://github.com/xiyi20/ForChen.git" target="_blank">Python每日早安推送</a></li>
+                <li><a href="https://github.com/xiyi20/BookManager.git" target="_blank">Java图书管理系统</a></li>
+                <li><a href="https://github.com/xiyi20/JavaPyHealthSerch.git" target="_blank">JavaPy病状查询系统</a></li>
             </ul>
         </div>
+        <a href="a.html">
+            <div id="foot"></div>
+        </a>
     </div>
 </body>
 </html>
