@@ -1,73 +1,110 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh">
 <head>
-<meta charset="utf-8">
-<title>随行记</title>
-<meta name="description" content="随心记录点东西，日用">
-<meta name="keywords" content="芜湖">
-<meta name="author" content="兮夕">
-<meta name="categories" content="绅士常备">
-<link href="Untitled1.css" rel="stylesheet">
-<link href="index.css" rel="stylesheet">
-<script src="jquery-1.12.4.min.js"></script>
-<script src="jquery-ui.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("#NavigationBar1 a").mouseenter(function(e)
-   {
-      $("#NavigationBar1_wrapper").parent().remove();
-      var $wrapper = $("<div id='NavigationBar1_wrapper'></div>");
-      var $link = $("<a></a>");
-      $link.attr('href', $(this).attr('href'));
-      $link.attr('target', $(this).attr('target'));
-      $wrapper.css('left', $(this).offset().left+'px');
-      $wrapper.css('top', $(this).offset().top+'px');
-      $wrapper.css('width', $(this).find('img').width()+'px');
-      $wrapper.css('height', $(this).find('img').height()+'px');
-      $wrapper.appendTo("body");
-      $wrapper.wrap($link);
-      $wrapper.mouseout(function()
-      {
-         $('#NavigationBar1_wrapper').parent().remove();
-         $("#NavigationBar1 span").show('blind', { easing: 'linear'}, 1000);
-      });
-      $(this).children("span").hide('blind', { easing: 'linear', direction: 'horizontal'}, 1000);
-   });
-});
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随性记</title>
+    <style>
+        @keyframes jianbian{
+            25%{opacity: 0.25;}
+            50%{opacity: 0.5;}
+            75%{opacity: 0.75;}
+            100%{opacity: 1;}
+        }
+        *{
+            margin: 0;padding: 0;
+            animation: jianbian 500ms linear 0ms 1 normal both;
+        }
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style-type: none;
+        }
+
+        #all{
+            width: 1603px;height: 752px;
+            margin: 0 auto;
+        }
+        #all .bg{
+            position: absolute;
+            width: 1603px;height: 752px;
+            z-index: 0;
+        }
+        .banner{
+            position: relative;
+            width: 1603px;height: 40px;
+        }
+        .banner b{
+            position: absolute;
+            text-align: center;
+            margin-left: -818px;
+            margin-top: 10px;
+            z-index: 1;
+        }
+        .touxiang{
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            margin-left: 801px;
+            margin-top: 20px;
+            transform: translateX(-50%);
+        }
+        .project{
+            position: absolute;
+            margin-left: 25px;
+            margin-top: 300px;
+            width: 200px;
+        }
+        .project li a{
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+            height: 40px;line-height: 40px;
+            background-color: plum;
+            border-radius: 15px;
+        }
+        .project li a:hover{
+            background-color: pink;
+        }
+        .project b{
+            font-size: 25px;
+            color: pink;
+        }
+        #foot{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            left: 1500px;
+            top: 710px;
+            width: 100px;
+            height: 40px;
+        }
+    </style>
 </head>
 <body>
-<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:1600px;height:900px;z-index:1;">
-<img src="images/img0002.png" id="Image1" alt=""></div>
-<div id="wb_Shape1" style="position:absolute;left:750px;top:61px;width:100px;height:100px;z-index:2;">
-<img src="images/img0001.png" id="Shape1" alt="" style="width:100px;height:100px;"></div>
-<div id="wb_Text1" style="position:absolute;left:675px;top:183px;width:250px;height:23px;text-align:center;z-index:3;">
-<span style="color:#000000;font-family:微软雅黑;font-size:17px;"><strong>夕怡</strong></span></div>
-<div id="NavigationBar1" style="position:absolute;left:11px;top:333px;width:123px;height:136px;z-index:4;">
-<ul class="navbar">
-<li><a href="./fz.py.html"><img alt="" src="images/img0004_over.png"><span><img alt="" src="images/img0004.png"></span></a></li>
-<li><a href="./mima.py.html"><img alt="" src="images/img0005_over.png"><span><img alt="" src="images/img0005.png"></span></a></li>
-<li><a href="./sjx.py.html"><img alt="" src="images/img0006_over.png"><span><img alt="" src="images/img0006.png"></span></a></li>
-<li><a href="./girl.py.html"><img alt="" src="images/img0007_over.png"><span><img alt="" src="images/img0007.png"></span></a></li>
-</ul>
-</div>
-<div id="Banner1" style="position:absolute;left:0px;top:0px;width:1598px;height:42px;z-index:5"><span>&#33436;&#28246;&#65292;&#36215;&#39134;&#65281;</span></div>
-<div id="Banner2" style="position:absolute;left:11px;top:253px;width:209px;height:78px;z-index:6"><span>Mr.D&#30340;PYTHON&#28304;&#30721;&#65306;</span></div>
-<div id="wb_Shape3" style="position:absolute;left:1486px;top:172px;width:84px;height:81px;z-index:7;">
-<a href="https://blog.csdn.net/?spm=1010.2135.3001.4477"><div id="Shape3"><div id="Shape3_text"><span style="color:#000000;font-family:Calibri;font-size:16px;"><strong>CSDN</strong></span></div></div></a></div>
-<div id="wb_Shape4" style="position:absolute;left:1486px;top:289px;width:84px;height:81px;z-index:8;">
-<a href="https://github.com/"><div id="Shape4"><div id="Shape4_text"><span style="color:#000000;font-family:Calibri;font-size:15px;"><strong>GitHub</strong></span></div></div></a></div>
-<div id="wb_Shape5" style="position:absolute;left:19px;top:497px;width:107px;height:104px;z-index:9;">
-<a href="javascript:popupwnd('https://console.cloud.tencent.com/cos/bucket)" target="_self"><img src="images/img0016.png" id="Shape5" alt="" style="width:107px;height:104px;">
-<div id="Shape5_text"><span style="color:#000000;font-family:微软雅黑;font-size:13px;"><strong>储存桶</strong></span></div>
-</a></div>
-<div id="wb_FlipSwitch1" style="position:absolute;left:1525px;top:865px;width:75px;height:35px;z-index:10;">
-<input type="checkbox" name="" id="FlipSwitch1" value="" onclick="window.location.href='./lsp.html';ShowObject('wb_FlipSwitch1', 0);return false;">
-<label id="FlipSwitch1-label" for="FlipSwitch1">
-<span id="FlipSwitch1-inner"></span>
-<span id="FlipSwitch1-switch"></span>
-</label>
-</div>
+    <div id="all">
+        <img class="bg" src="images/img0002.png" width="1603" height="700" alt="">
+        <div class="banner">
+            <img src="images/index_Banner.png" width="1603" height="40" alt="">
+            <b>芜湖</b>
+        </div>
+        <div class="touxiang">
+            <img src="images/img0001.png" width="120" height="120" alt="">
+        </div>
+        <div class="project">
+            <b>Mr.D的无聊项目:</b>
+            <ul>
+                <li><a href="" target="_blank">Python爬虫</a></li>
+                <li><a href="https://github.com/xiyi20/ForChen.git" target="_blank">Python每日早安推送</a></li>
+                <li><a href="https://github.com/xiyi20/BookManager.git" target="_blank">Java图书管理系统</a></li>
+                <li><a href="https://github.com/xiyi20/JavaPyHealthSerch.git" target="_blank">JavaPy病状查询系统</a></li>
+            </ul>
+        </div>
+        <a href="a.html">
+            <div id="foot"></div>
+        </a>
+    </div>
 </body>
 </html>
